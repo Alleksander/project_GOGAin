@@ -1,0 +1,13 @@
+.work {
+    padding: 120px 0;
+    background-color: #FFCD34;
+    &__text {
+        font-size: 68px;
+        line-height: 80px;
+        font-weight: 500;
+        text-align: center;
+    }
+    &__btn {
+        margin-top: 90px;
+    }
+}

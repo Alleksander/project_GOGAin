@@ -1,0 +1,24 @@
+.btn {
+    padding: 20px 200px;
+    display: block;
+    margin: 0 auto;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #000;
+    &_white32 {
+        padding: 20px 80px;
+        font-size: 32px;
+        font-weight: 400;
+        color: #000;
+        background-color: #fff;
+        border: 1px solid #231F20;
+        border-radius: 15px;
+    }
+    &_black40 {
+        padding: 20px 140px;
+        font-size: 40px;
+        font-weight: 400;
+        border-radius: 15px;
+    }
+}

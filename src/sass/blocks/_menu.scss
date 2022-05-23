@@ -1,0 +1,16 @@
+.menu {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    &__item {
+        list-style-type: none;
+        &-link {
+            font-size: 32px;
+            color: #000;
+            &:hover {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+}

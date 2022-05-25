@@ -1,29 +1,29 @@
 .examples {
-    padding-top: 150px;
+    padding-top: var(--sect-pt);
     &__text {
         margin-top: 50px;
-        width: 1000px;
-        font-size: 48px;
-        line-height: 56px;
+        width: 50%;
+        font-size: var(--main-fz);
+        line-height: calc(var(--main-fz) * 1.1);
         text-align: justify;
     }
     &__wrapper {
         img {
             position: absolute;
             &:first-child {
-                transform: scale(0.65) rotate(11deg);
-                left: 720px;
-                top: 250px;
+                transform: scale(0.40) rotate(11deg);
+                left: 290px;
+                top: 25px;
             }
             &:nth-child(2) {
-                transform: scale(0.65) rotate(-9deg);
-                left: 850px;
-                top: -200px;
+                transform: scale(0.40) rotate(-9deg);
+                left: 340px;
+                top: -250px;
             }
             &:nth-child(3) {
-                transform: scale(0.65) rotate(4deg);
-                left: 1520px;
-                top: 500px;
+                transform: scale(0.40) rotate(4deg);
+                left: 890px;
+                top: 185px;
             }
         }
     }

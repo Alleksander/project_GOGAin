@@ -1,0 +1,979 @@
+@media (max-width: 1536px) {
+    .container {
+        width: 1380px;
+    }
+    :root {
+        --main-fz: 33px;
+        --sect-pt: 100px;
+    }
+    .title {
+        font-size: 50px;
+    }
+    .btn {
+        &_big {
+            padding: 15px 100px;
+        }
+    }
+    .menu {
+        &__item {
+            &-link {
+                padding: 15px 100px;
+            }
+        }
+    }
+    .examples {
+        &__wrapper {
+            img {
+                &:first-child {
+                    transform: scale(0.35) rotate(11deg);
+                    left: 220px;
+                    top: -50px;
+                }
+                &:nth-child(2) {
+                    transform: scale(0.35) rotate(-9deg);
+                    left: 260px;
+                    top: -290px;
+                }
+                &:nth-child(3) {
+                    transform: scale(0.35) rotate(4deg);
+                    left: 785px;
+                    top: 100px;
+                }
+            }
+        }
+    }
+    .footer {
+        &__wrapper {
+            width: 43%;
+        }
+    }
+}
+
+@media (max-width: 1439px) {
+    .container {
+        width: 1140px;
+    }
+    :root {
+        --main-fz: 27px;
+        --sect-pt: 80px;
+    }
+    .title {
+        font-size: 40px;
+    }
+    .btn {
+        &_white32 {
+            padding: 15px 50px;
+            font-size: 25px;
+        }
+        &_black40 {
+            padding: 15px 80px;
+            font-size: 32px;
+        }        
+    }
+    .menu {
+        &__item {
+            &-link {
+                font-size: 25px;
+                padding: 10px 80px;
+            }
+        }
+    }
+    .promo {
+        h1 {
+            font-size: 180px;
+            line-height: 200px;
+        }
+        &__subtitle {
+            font-size: 47px;
+            line-height: 47px;
+        }
+        &__menu {
+            margin-top: 50px;
+        }
+        &__epigraph {
+            margin-top: 30px;
+            width: 80%;
+            &-text {
+                font-size: 30px;
+            }
+            &-author {
+                font-size: 22px;
+            }
+        }
+        &__text {
+            margin-top: 30px;
+            font-size: 25px;
+        }
+    }
+    .start {
+        &__instruction {
+            margin-top: 15px;
+        }
+        &__item {
+            margin: 0 15px;
+            width: 250px;
+            height: 250px;
+            &-icon {
+                height: 180px;
+            }
+            &-descr {
+                font-size: 24px;
+            }
+        }
+        &__arrow {
+            &-up {
+                img {
+                    width: 120px;
+                }
+            }
+            &-down {
+                width: 680px;
+                margin: 15px auto 0 auto;
+                img {
+                    width: 120px;
+                }
+            }
+        }
+        &__btn {
+            margin-top: 80px;
+        }
+    }
+    .examples {
+        &__text {
+            margin-top: 40px;
+        }
+        &__wrapper {
+            img {
+                &:first-child {
+                    transform: scale(0.30) rotate(11deg);
+                    left: 75px;
+                    top: -145px;
+                }
+                &:nth-child(2) {
+                    transform: scale(0.30) rotate(-9deg);
+                    left: 100px;
+                    top: -350px;
+                }
+                &:nth-child(3) {
+                    transform: scale(0.30) rotate(4deg);
+                    left: 600px;
+                    top: -15px;
+                }
+            }
+        }
+    }
+    .buyers {
+        padding-top: 240px;
+        &__text {
+            margin-top: 40px;
+        }
+        &__earnings {
+            height: 677px;
+            &-sum {
+                font-size: 180px;
+                line-height: 180px;
+            }
+            &-descr {
+                font-size: 30px;
+            }
+        }
+        &__wrapper {
+            margin-top: 80px
+        }
+        &__total {
+            padding: 20px 30px;
+            width: 500px;
+            height: 400px;
+            border-radius: 20px;
+            &-header {
+                div {
+                    font-size: 18px;
+                }
+            }
+            &-divider {
+                margin: 20px 0;
+                width: 470px;
+                transform: translateX(-15px);
+            }
+            &-number {
+                div {
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+            }
+            &-descr {
+                font-size: 16px;
+            }
+        }
+    }
+    .work {
+        &__text {
+            font-size: 40px;
+            line-height: 50px;
+        }
+        &__btn {
+            margin-top: 50px;
+        }
+    }
+    .footer {
+        padding: 25px 30px;
+        &__logo {
+            font-size: 70px;
+            line-height: 80px;
+        }
+        &__invite {
+            margin-top: 15px;
+            font-size: 22px;
+        }
+        &__form {
+            margin-top: 20px;
+            input {
+                height: 50px;
+                border-radius: 10px;
+                padding: 15px 25px;
+                font-size: 22px;
+                &:last-child {
+                    border-radius: 0 10px 10px 0;
+                }
+            }
+        }
+        &__company {
+            margin-top: 30px;
+            font-size: 16px;
+        }
+        &__wrapper {
+            margin-top: 25px;
+            width: 40%;
+        }
+        &__links {
+            height: 150px;
+            a {
+                font-size: 20px;
+            }
+        }
+        &__social {
+            margin-top: 30px;
+            img {
+                height: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 950px;
+    }
+    :root {
+        --main-fz: 23px;
+        --sect-pt: 60px;
+    }
+    .title {
+        font-size: 33px;
+    }
+    .btn {
+        &_big {
+            padding: 15px 70px;
+            font-size: 26px;
+        }
+        &_white32 {
+            padding: 10px 40px;
+            font-size: 21px;
+        }
+        &_black40 {
+            padding: 12px 60px;
+            font-size: 24px;
+        }        
+    }
+    .menu {
+        &__item {
+            &-link {
+                font-size: 21px;
+                padding: 10px 70px;
+            }
+        }
+    }
+    .promo {
+        h1 {
+            font-size: 120px;
+            line-height: 130px;
+        }
+        &__subtitle {
+            font-size: 31px;
+            line-height: 36px;
+        }
+        &__menu {
+            margin-top: 40px;
+        }
+        &__epigraph {
+            margin-top: 25px;
+            &-text {
+                font-size: 26px;
+            }
+            &-author {
+                font-size: 18px;
+            }
+        }
+        &__text {
+            margin-top: 25px;
+            font-size: 20px;
+        }
+    }
+    .start {
+        &__item {
+            margin: 0 10px;
+            width: 200px;
+            height: 200px;
+            &-icon {
+                height: 150px;
+                img {
+                    max-height: 60%;
+                }
+            }
+            &-descr {
+                height: 49px;
+                font-size: 18px;
+            }
+        }
+        &__arrow {
+            &-down {
+                width: 565px;
+            }
+        }
+    }
+    .examples {
+        &__wrapper {
+            img {
+                &:first-child {
+                    transform: scale(0.25) rotate(11deg);
+                    left: -45px;
+                    top: -210px;
+                }
+                &:nth-child(2) {
+                    transform: scale(0.25) rotate(-9deg);
+                    left: -35px;
+                    top: -380px;
+                }
+                &:nth-child(3) {
+                    transform: scale(0.25) rotate(4deg);
+                    left: 445px;
+                    top: -95px;
+                }
+            }
+        }
+    }
+    .buyers {
+        padding-top: 200px;
+        &__earnings {
+            height: 560px;
+            &-sum {
+                font-size: 140px;
+                line-height: 140px;
+            }
+            &-descr {
+                font-size: 23px;
+            }
+        }
+        &__wrapper {
+            margin-top: 60px
+        }
+        &__total {
+            padding: 15px 20px;
+            width: 400px;
+            height: 300px;
+            border-radius: 10px;
+            &-header {
+                div {
+                    font-size: 15px;
+                }
+            }
+            &-divider {
+                margin: 15px 0;
+                width: 380px;
+                transform: translateX(-10px);
+            }
+            &-number {
+                div {
+                    font-size: 32px;
+                    line-height: 36px;
+                }
+            }
+            &-descr {
+                font-size: 14px;
+            }
+        }
+    }
+    .footer {
+        padding: 20px 25px;
+        &__logo {
+            font-size: 60px;
+            line-height: 70px;
+        }
+        &__invite {
+            font-size: 18px;
+        }
+        &__form {
+            margin-top: 20px;
+            input {
+                height: 40px;
+                padding: 10px 20px;
+                font-size: 18px;
+            }
+        }
+        &__wrapper {
+            margin-top: 20px;
+            width: 45%;
+        }
+        &__links {
+            height: 135px;
+            a {
+                font-size: 18px;
+            }
+        }
+        &__social {
+            margin-top: 20px;
+            img {
+                height: 35px;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    :root {
+        --main-fz: 18px;
+        --sect-pt: 50px;
+    }
+    .title {
+        font-size: 28px;
+    }
+    .btn {
+        &_big {
+            font-size: 21px;
+        }
+        &_white32 {
+            padding: 10px 30px;
+            font-size: 18px;
+        }
+        &_black40 {
+            padding: 12px 50px;
+            font-size: 20px;
+        }        
+    }
+    .menu {
+        &__item {
+            &-link {
+                font-size: 18px;
+                padding: 10px 50px;
+            }
+        }
+    }
+    .promo {
+        h1 {
+            font-size: 100px;
+            line-height: 110px;
+        }
+        &__subtitle {
+            font-size: 26px;
+            line-height: 30px;
+        }
+        &__menu {
+            margin-top: 25px;
+        }
+        &__epigraph {
+            &-text {
+                font-size: 19px;
+            }
+            &-author {
+                font-size: 15px;
+            }
+        }
+        &__text {
+            font-size: 16px;
+        }
+    }
+    .start {
+        &__item {
+            width: 150px;
+            height: 150px;
+            &-icon {
+                height: 110px;
+            }
+            &-descr {
+                height: 39px;
+                font-size: 15px;
+            }
+        }
+        &__arrow {
+            &-up {
+                img {
+                    width: 80px;
+                }
+            }
+            &-down {
+                width: 420px;
+                img {
+                    width: 80px;
+                }
+            }
+        }
+        &__btn {
+            margin-top: 50px;
+        }
+    }
+    .examples {
+        &__text {
+            margin-top: 40px;
+        }
+        &__wrapper {
+            img {
+                &:first-child {
+                    transform: scale(0.20) rotate(11deg);
+                    left: -195px;
+                    top: -270px;
+                }
+                &:nth-child(2) {
+                    transform: scale(0.20) rotate(-9deg);
+                    left: -195px;
+                    top: -405px;
+                }
+                &:nth-child(3) {
+                    transform: scale(0.20) rotate(4deg);
+                    left: 255px;
+                    top: -170px;
+                }
+            }
+        }
+    }
+    .buyers {
+        padding-top: 180px;
+        &__earnings {
+            margin-top: 40px;
+            height: 430px;
+            &-sum {
+                font-size: 110px;
+                line-height: 110px;
+            }
+            &-descr {
+                font-size: 18px;
+            }
+        }
+        &__wrapper {
+            margin-top: 40px
+        }
+        &__total {
+            padding: 10px 15px;
+            width: 300px;
+            height: 250px;
+            &-header {
+                div {
+                    font-size: 11px;
+                }
+            }
+            &-divider {
+                margin: 10px 0;
+                width: 290px;
+            }
+            &-number {
+                div {
+                    font-size: 27px;
+                    line-height: 31px;
+                }
+            }
+            &-descr {
+                margin-top: 8px;
+                font-size: 12px;
+            }
+        }
+    }
+    .watch {
+        &__btn {
+            margin-top: 40px;
+        }
+    }
+    .work {
+        &__text {
+            font-size: 30px;
+            line-height: 36px;
+        }
+        &__btn {
+            margin-top: 30px;
+        }
+    }
+    .footer {
+        padding: 15px 20px;
+        &__info {
+            width: 47%;
+        }
+        &__logo {
+            font-size: 50px;
+            line-height: 56px;
+        }
+        &__invite {
+            font-size: 15px;
+        }
+        &__form {
+            input {
+                height: 35px;
+                padding: 10px 15px;
+                font-size: 15px;
+            }
+        }
+        &__company {
+            margin-top: 20px;
+            font-size: 12px;
+        }
+        &__links {
+            height: 105px;
+            a {
+                font-size: 14px;
+            }
+        }
+        &__social {
+            img {
+                height: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+    :root {
+        --main-fz: 20px;
+        --sect-pt: 40px;
+    }
+    .title {
+        text-align: center;
+    }
+    .btn {
+        font-weight: 500;
+        &_big {
+            padding: 12px 40px;
+            font-size: 18px;
+            &:hover {
+                color: #fff;
+                background-color: #000;
+            }
+        }
+        &_white32 {
+            padding: 8px 20px;
+            font-size: 14px;
+            &:hover {
+                color: #000;
+                background-color: #fff;
+            }
+        }
+        &_black40 {
+            padding: 10px 30px;
+            font-size: 16px;
+            &:hover {
+                transform: scale(1.00);
+            }
+        }        
+    }
+    .menu {
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        &__item {
+            margin: 15px 0;
+            &-link {
+                font-size: 30px;
+                font-weight: 700;
+                text-align: center;
+                padding: 15px 30px;
+                &:hover {
+                    color: #000;
+                    background-color: #FFCD34;
+                }
+            }
+        }
+    }
+    .promo {
+        .hamburger {
+            display: flex;
+        }
+        h1 {
+            font-size: 80px;
+            line-height: 90px;
+        }
+        &__subtitle {
+            font-size: 21px;
+            line-height: 24px;
+            font-weight: 400;
+        }
+        &__menu {
+            display: none;
+        }
+        &__epigraph {
+            &-text {
+                line-height: 22px;
+            }
+            &-author {
+                font-weight: 300;
+            }
+        }
+        &__text {
+            font-weight: 400;
+            text-align: justify;
+        }
+    }
+    .start {
+        &__item {
+            width: 120px;
+            height: 120px;
+            &-icon {
+                height: 75px;
+            }
+            &-descr {
+                height: 44px;
+                font-size: 16px;
+                line-height: 14px;
+                font-weight: 500;
+            }
+        }
+        &__arrow {
+            &-down {
+                width: 350px;
+            }
+        }
+    }
+    .examples {
+        &__text {
+            width: 100%;
+            font-weight: 400;
+            
+        }
+        &__wrapper {
+            display: none;
+        }
+    }
+    .buyers {
+        padding-top: 40px;
+        &__text {
+            font-weight: 400;
+            &_small {
+                width: 100%;
+            }
+        }
+        &__earnings {
+            height: 320px;
+            &-sum {
+                font-size: 80px;
+                line-height: 80px;
+            }
+            &-descr {
+                font-size: 20px;
+                width: 70%;
+            }
+        }
+        &__wrapper {
+            margin-top: 0;
+            flex-direction: column;
+        }
+        &__total {
+            margin-top: 30px;
+            height: 300px;
+            &-header {
+                div {
+                    font-size: 16px;
+                    &:last-child {
+                        text-align: right;
+                    }
+                }
+            }
+            &-number {
+                div {
+                    font-size: 28px;
+                    line-height: 34px;
+                }
+            }
+            &-descr {
+                margin-top: 8px;
+                font-size: 16px;
+            }
+        }
+    }
+    .watch {
+        &__text {
+            font-weight: 300;
+        }
+        &__btn {
+            margin-top: 30px;
+        }
+    }
+    .footer {
+        padding: 30px 40px;
+        flex-direction: column;
+        &__info, &__wrapper {
+            width: 100%;
+        }
+        &__invite {
+            font-size: 20px;
+        }
+        &__company {
+            display: none;
+        }
+        &__links {
+            height: 200px;
+            a {
+                text-decoration: none;
+                font-size: 19px;
+                padding: 5px 0;
+            }
+        }
+        &__social {
+            img {
+                height: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    :root {
+        --main-fz: 18px;
+        --sect-pt: 30px;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .btn {
+        font-weight: 500;
+        &_big {
+            padding: 10px 20px;
+            font-size: 16px;
+        }      
+    }
+    .mobile {
+        &__block {
+            width: 75vw;
+        }
+    }
+    .menu {
+        &__item {
+            &-link {
+                padding: 15px 10px;
+            }
+        }
+    }
+    .promo {
+        .hamburger {
+            display: flex;
+            top: 15px;
+            right: 15px;
+        }
+        h1 {
+            font-size: 50px;
+        }
+    }
+    .start {
+        &__wrapper {
+            position: relative;
+        }
+        &__instruction {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            width: 200px;
+            height: 200px;
+            margin: 15px 0;
+            &-icon {
+                height: 150px;
+            }
+            &-descr {
+                height: 49px;
+                font-size: 21px;
+                font-weight: 500;
+            }
+        }
+        &__arrow {
+            &-up, &-down {
+                display: none;
+            }
+        }
+        &__btn {
+            margin-top: 30px;
+        }
+    }
+    .buyers {
+        &__earnings {
+            margin-top: 30px;
+            height: 270px;
+            &-sum {
+                font-size: 50px;
+                line-height: 50px;
+            }
+            &-descr {
+                font-size: 15px;
+                width: 80%;
+            }
+        }
+        &__total {
+            height: 280px;
+            width: 280px;
+            &-header {
+                div {
+                    font-size: 15px;
+                }
+            }
+            &-divider {
+                width: 270px;
+            }
+            &-number {
+                div {
+                    font-size: 26px;
+                    line-height: 31px;
+                }
+            }
+        }
+    }
+    .work {
+        &__text {
+            font-size: 21px;
+            line-height: 26px;
+        }
+        &__btn {
+            margin-top: 25px;
+        }
+    }
+    .footer {
+        padding: 20px 10px;
+        &__logo {
+            padding-left: 20px;
+        }
+        &__invite {
+            padding-left: 20px;
+        }
+        &__form {
+            input {
+                padding: 10px 12px;
+            }
+        }
+        &__links {
+            padding-left: 20px;
+            height: auto;
+            a {
+                font-size: 16px;
+                padding: 5px 0;
+            }
+        }
+        &__social {
+            justify-content: space-around;
+            img {
+                height: 30px;
+            }
+        }
+    }
+}

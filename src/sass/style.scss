@@ -1,9 +1,6 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/font';
 
-@import 'base/variables';
-@import 'base/mixins';
-
 * {
     font-family: 'Gilroy', sans-serif;
     font-weight: 100;
@@ -11,9 +8,14 @@
     padding: 0;
 }
 
+:root {
+    --main-fz: 37px;
+    --sect-pt: 120px;
+}
+
 .container {
     position: relative;
-    width: 1900px;
+    width: 1450px;
     margin: 0 auto;
 }
 
@@ -27,3 +29,5 @@
 @import 'blocks/watch';
 @import 'blocks/work';
 @import 'blocks/footer';
+
+@import 'blocks/media';

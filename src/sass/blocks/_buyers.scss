@@ -1,55 +1,62 @@
 .buyers {
-    padding-top: 550px;
+    padding-top: 300px;
     &__text {
         margin-top: 50px;
         margin-bottom: 0;
-        font-size: 48px;
-        line-height: 56px;
+        font-size: var(--main-fz);
         text-align: justify;
         &_small {
-            width: 1100px;
+            width: 50%;
         }
     }
     &__earnings {
-        padding: 350px 0;
+        position: relative;
         margin-top: 50px;
-        height: 1129px;
-        background: url("../img/buyers_bg.png") center center/cover no-repeat;
+        height: 861px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &-bg {
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+        }
         &-sum {
-            font-size: 348px;
-            line-height: 348px;
+            font-size: 248px;
+            line-height: 248px;
             font-weight: 950;
             text-align: center;
         }
         &-descr {
-            font-size: 56px;
+            font-size: 42px;
             font-weight: 700;
             text-align: center;
         }
     }
     &__wrapper {
-        margin-top: 150px;
+        margin-top: 100px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
     &__total {
-        padding: 40px 60px;
-        width: 700px;
-        height: 600px;
+        padding: 30px 40px;
+        width: 600px;
+        height: 500px;
         border: 1px solid #000;
         border-radius: 30px;
         &-header, &-descr {
             display: flex;
             justify-content: space-between;
             div {
-                font-size: 24px;
+                font-size: 21px;
                 font-weight: 500;
             }
         }
         &-divider {
-            margin: 40px 0;
-            width: 650px;
+            margin: 30px 0;
+            width: 570px;
             border-top: 1px solid #000;
             transform: translateX(-25px);
         }
@@ -57,15 +64,15 @@
             display: flex;
             justify-content: space-between;
             div {
-                font-size: 64px;
-                line-height: 70px;
+                font-size: 50px;
+                line-height: 60px;
                 font-weight: 500;
             }
         }
         &-descr {
             margin-top: 10px;
             justify-content: flex-end;
-            font-size: 24px;
+            font-size: 20px;
             font-weight: 500;
         }
     }

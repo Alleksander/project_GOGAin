@@ -4,8 +4,16 @@
     margin: 0 auto;
     font-size: 32px;
     font-weight: 700;
+    border: none;
     color: #fff;
     background-color: #000;
+    transition: 0.3s all;
+    &_big {
+        &:hover {
+            color: #000;
+            background-color: #FFCD34;
+        }
+    }
     &_white32 {
         padding: 20px 80px;
         font-size: 32px;
@@ -14,11 +22,20 @@
         background-color: #fff;
         border: 1px solid #231F20;
         border-radius: 15px;
+        &:hover {
+            color: #fff;
+            background-color: #000;
+        }
     }
     &_black40 {
         padding: 20px 140px;
         font-size: 40px;
         font-weight: 400;
         border-radius: 15px;
+        &:hover {
+            transform: scale(1.02);
+            color: #fff;
+            background-color: #000;
+        }
     }
 }

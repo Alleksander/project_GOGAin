@@ -42,11 +42,6 @@
             }
         }
     }
-    .footer {
-        &__wrapper {
-            width: 43%;
-        }
-    }
 }
 
 @media (max-width: 1439px) {
@@ -66,7 +61,6 @@
             font-size: 25px;
         }
         &_black40 {
-            padding: 15px 80px;
             font-size: 32px;
         }        
     }
@@ -209,53 +203,38 @@
     .work {
         &__text {
             font-size: 40px;
-            line-height: 50px;
-        }
-        &__btn {
-            margin-top: 50px;
         }
     }
     .footer {
         padding: 25px 30px;
+        &__info {
+            width: 45%;
+        }
         &__logo {
             font-size: 70px;
             line-height: 80px;
         }
         &__invite {
             margin-top: 15px;
-            font-size: 22px;
         }
         &__form {
-            margin-top: 20px;
             input {
-                height: 50px;
                 border-radius: 10px;
-                padding: 15px 25px;
-                font-size: 22px;
+                font-size: 20px;
                 &:last-child {
                     border-radius: 0 10px 10px 0;
                 }
             }
         }
         &__company {
-            margin-top: 30px;
             font-size: 16px;
         }
         &__wrapper {
             margin-top: 25px;
             width: 40%;
         }
-        &__links {
-            height: 150px;
-            a {
-                font-size: 20px;
-            }
-        }
         &__social {
             margin-top: 30px;
-            img {
-                height: 40px;
-            }
         }
     }
 }
@@ -413,7 +392,6 @@
             font-size: 18px;
         }
         &__form {
-            margin-top: 20px;
             input {
                 height: 40px;
                 padding: 10px 20px;
@@ -423,12 +401,6 @@
         &__wrapper {
             margin-top: 20px;
             width: 45%;
-        }
-        &__links {
-            height: 135px;
-            a {
-                font-size: 18px;
-            }
         }
         &__social {
             margin-top: 20px;

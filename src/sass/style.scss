@@ -1,5 +1,5 @@
-@import 'libs/bootstrap-reboot.min';
-@import 'libs/font';
+@import './libs/bootstrap-reboot.min';
+@import './libs/font';
 
 * {
     font-family: 'Gilroy', sans-serif;
@@ -19,15 +19,15 @@
     margin: 0 auto;
 }
 
-@import 'blocks/titles';
-@import 'blocks/buttons';
-@import 'blocks/menu';
-@import 'blocks/promo';
-@import 'blocks/start';
-@import 'blocks/examples';
-@import 'blocks/buyers';
-@import 'blocks/watch';
-@import 'blocks/work';
-@import 'blocks/footer';
+@import './blocks/titles';
+@import './blocks/buttons';
+@import './blocks/menu';
+@import './blocks/promo';
+@import './blocks/start';
+@import './blocks/examples';
+@import './blocks/buyers';
+@import './blocks/watch';
+@import './blocks/work';
+@import './blocks/footer';
 
-@import 'blocks/media';
+@import './blocks/media';

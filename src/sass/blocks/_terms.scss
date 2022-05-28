@@ -1,0 +1,36 @@
+.terms {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__list {
+        margin-bottom: 0;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 55%;
+    }
+    &__item {
+        position: relative;
+        padding: 15px 0 15px 60px;
+        font-weight: 500;
+        font-size: 32px;
+        &:before {
+            content: '';
+            background: url('../img/coin-icon.svg') center center/cover no-repeat;
+            display: block;
+            position: absolute;
+            left: 10px;
+            width: 55px;
+            height: 55px;
+            transform: translateX(-50%);
+        }
+    }
+}

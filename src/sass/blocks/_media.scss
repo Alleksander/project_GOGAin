@@ -42,6 +42,63 @@
             }
         }
     }
+    .primary {
+        &__text {
+            height: 800px;
+        }
+        &__wrapper {
+            div {
+                &:nth-child(2) {
+                    transform: scale(0.8);
+                }
+            }
+        }
+    }
+    .terms {
+        &__item {
+            padding: 10px 0 10px 65px;
+            font-size: 28px;
+            &:before {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+    .statistics {
+        padding: 15px 20px;
+        width: 500px;
+        &-divider {
+            margin: 20px 0;
+            width: 480px;
+            transform: translateX(-10px);
+    
+        }
+        &-number {
+            div {
+                font-size: 40px;
+                line-height: 50px;
+            }
+        }
+        &-descr {
+            font-size: 16px;
+        }
+    }
+    .profit {
+        height: 680px;
+        &__bg {
+            height: 680px;
+        }
+        &__img {
+            height: 680px;
+        }
+        &__text {
+            font-size: 40px;
+            line-height: 44px;
+            span {
+                font-size: 46px;
+            }
+        }
+    }
 }
 
 @media (max-width: 1439px) {
@@ -237,6 +294,79 @@
             margin-top: 30px;
         }
     }
+    .primary {
+        &__text {
+            height: 700px;
+            &-descr {
+                font-size: 28px;
+            }
+        }
+        &__wrapper {
+            div {
+                &:first-child {
+                    transform: scale(0.4);
+                    top: -16%;
+                }
+                &:nth-child(2) {
+                    transform: scale(0.6);
+                    top: 73%;
+                }
+                &:last-child {
+                    transform: scale(0.5);
+                    top: 55%;
+                }
+            }
+        }
+    }
+    .terms {
+        &__item {
+            padding: 10px 0 10px 50px;
+            font-size: 24px;
+            &:before {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+    .statistics {
+        width: 420px;
+        &-header {
+            div {
+                font-size: 16px;
+            }
+        }
+        &-divider {
+            margin: 15px 0;
+            width: 400px;
+            transform: translateX(-10px);
+    
+        }
+        &-number {
+            div {
+                font-size: 34px;
+                line-height: 40px;
+            }
+        }
+        &-descr {
+            font-size: 14px;
+        }
+    }
+    .profit {
+        height: 570px;
+        &__bg {
+            height: 570px;
+        }
+        &__img {
+            height: 570px;
+        }
+        &__text {
+            font-size: 34px;
+            line-height: 37px;
+            span {
+                font-size: 39px;
+            }
+        }
+    }
 }
 
 @media (max-width: 1200px) {
@@ -406,6 +536,77 @@
             margin-top: 20px;
             img {
                 height: 35px;
+            }
+        }
+    }
+    .primary {
+        &__text {
+            height: 500px;
+            &-descr {
+                font-size: 22px;
+            }
+        }
+        &__wrapper {
+            div {
+                &:first-child {
+                    transform: scale(0.3);
+                    top: -25%;
+                }
+                &:nth-child(2) {
+                    transform: scale(0.4);
+                    top: 65%;
+                }
+                &:last-child {
+                    transform: scale(0.4);
+                    top: 52%;
+                }
+            }
+        }
+    }
+    .terms {
+        &__list {
+            width: 60%;
+        }
+        &__item {
+            font-size: 22px;
+        }
+    }
+    .statistics {
+        width: 360px;
+        padding: 10px 16px;
+        &-header {
+            div {
+                font-size: 14px;
+            }
+        }
+        &-divider {
+            width: 350px;
+            transform: translateX(-11px);
+    
+        }
+        &-number {
+            div {
+                font-size: 30px;
+                line-height: 34px;
+            }
+        }
+        &-descr {
+            font-size: 12px;
+        }
+    }
+    .profit {
+        height: 460px;
+        &__bg {
+            height: 460px;
+        }
+        &__img {
+            height: 460px;
+        }
+        &__text {
+            font-size: 28px;
+            line-height: 32px;
+            span {
+                font-size: 32px;
             }
         }
     }
@@ -610,9 +811,84 @@
             }
         }
     }
+    .primary {
+        &__text {
+            height: 400px;
+            &-descr {
+                font-size: 18px;
+            }
+        }
+        &__wrapper {
+            div {
+                &:first-child {
+                    transform: scale(0.2);
+                    top: -33%;
+                    left: -1%;
+                }
+                &:nth-child(2) {
+                    transform: scale(0.3);
+                    top: 57%;
+                    left: -12%;
+                }
+            }
+        }
+    }
+    .terms {
+        &__list {
+            width: 60%;
+        }
+        &__item {
+            padding: 5px 0 5px 40px;
+            font-size: 16px;
+            &:before {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+    .statistics {
+        width: 300px;
+        padding: 10px 10px;
+        &-header {
+            div {
+                font-size: 11px;
+            }
+        }
+        &-divider {
+            margin: 10px 0;
+            width: 290px;
+            transform: translateX(-5px);
+    
+        }
+        &-number {
+            div {
+                font-size: 27px;
+                line-height: 31px;
+            }
+        }
+    }
+    .profit {
+        height: 380px;
+        &__bg {
+            height: 380px;
+        }
+        &__img {
+            height: 380px;
+        }
+        &__text {
+            font-size: 22px;
+            line-height: 25px;
+            span {
+                font-size: 25px;
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
+    * {
+        font-weight: 400;
+    }
     .container {
         width: 540px;
     }
@@ -678,7 +954,6 @@
         &__subtitle {
             font-size: 21px;
             line-height: 24px;
-            font-weight: 400;
         }
         &__menu {
             display: none;
@@ -692,7 +967,6 @@
             }
         }
         &__text {
-            font-weight: 400;
             text-align: justify;
         }
     }
@@ -719,7 +993,6 @@
     .examples {
         &__text {
             width: 100%;
-            font-weight: 400;
             
         }
         &__wrapper {
@@ -729,7 +1002,6 @@
     .buyers {
         padding-top: 40px;
         &__text {
-            font-weight: 400;
             &_small {
                 width: 100%;
             }
@@ -773,9 +1045,6 @@
         }
     }
     .watch {
-        &__text {
-            font-weight: 300;
-        }
         &__btn {
             margin-top: 30px;
         }
@@ -803,6 +1072,75 @@
         &__social {
             img {
                 height: 40px;
+            }
+        }
+    }
+    .primary {
+        &__text {
+            height: 300px;
+            &-descr {
+                width: 95%;
+                font-size: 16px;
+            }
+        }
+        &__wrapper {
+            div {
+                &:first-child {
+                    top: -43%;
+                    left: -10%;
+                }
+                &:nth-child(2) {
+                    top: 42%;
+                    left: -15%;
+                }
+            }
+        }
+    }
+    .terms {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__list {
+            width: auto;
+        }
+        &__item {
+            font-size: 18px;
+        }
+    }
+    .statistics {
+        margin-top: 20px;
+        width: 400px;
+        padding: 15px 30px;
+        &-header {
+            div {
+                font-size: 14px;
+            }
+        }
+        &-divider {
+            width: 380px;
+            transform: translateX(-20px);
+    
+        }
+        &-number {
+            div {
+                font-size: 32px;
+                line-height: 36px;
+            }
+        }
+    }
+    .profit {
+        height: 285px;
+        &__bg {
+            height: 285px;
+        }
+        &__img {
+            height: 285px;
+        }
+        &__text {
+            font-size: 16px;
+            line-height: 18px;
+            span {
+                font-size: 18px;
             }
         }
     }
@@ -945,6 +1283,78 @@
             justify-content: space-around;
             img {
                 height: 30px;
+            }
+        }
+    }
+    .primary {
+        &__text {
+            &-descr {
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
+        &__wrapper {
+            div {
+                &:first-child {
+                    transform: scale(0.15);
+                    top: -45%;
+                    left: -28%;
+                }
+                &:nth-child(2) {
+                    transform: scale(0.2);
+                    top: 45%;
+                    left: -35%;
+                }
+                &:last-child {
+                    transform: scale(0.3);
+                    top: 70%;
+                    left: 60%;
+                }
+            }
+        }
+    }
+    .terms {
+        &__item {
+            font-size: 16px;
+        }
+    }
+    .statistics {
+        width: 300px;
+        padding: 10px 10px;
+        &-header {
+            div {
+                font-size: 11px;
+            }
+        }
+        &-divider {
+            margin: 10px 0;
+            width: 290px;
+            transform: translateX(-5px);
+    
+        }
+        &-number {
+            div {
+                font-size: 27px;
+                line-height: 31px;
+            }
+        }
+    }
+    .profit {
+        height: 150px;
+        .container {
+            width: 300px;
+        }
+        &__bg {
+            height: 150px;
+        }
+        &__img {
+            height: 150px;
+        }
+        &__text {
+            font-size: 13px;
+            line-height: 14px;
+            span {
+                font-size: 14px;
             }
         }
     }

@@ -8,7 +8,6 @@
         align-items: center;
         &-descr {
             color: #fff;
-            font-weight: 100;
             font-size: 34px;
             width: 90%;
             text-align: center;
@@ -19,17 +18,17 @@
             position: absolute;
             &:first-child {
                 transform: scale(0.5);
-                top: -120px;
-                left: 100px;
+                top: -13%;
+                left: 7%;
             }
             &:nth-child(2) {
-                top: 700px;
-                left: -30px;
+                top: 78%;
+                left: -1%;
             }
             &:last-child {
                 transform: scale(0.7);
-                top: 530px;
-                left: 1200px;
+                top: 59%;
+                left: 80%;
             }
         }
     }

@@ -1,9 +1,8 @@
 .statistics {
     padding: 20px 30px;
     width: 570px;
-    height: 800px;
     border: none;
-    &-header, &-descr {
+    &-header {
         display: flex;
         justify-content: space-between;
         div {
@@ -28,6 +27,7 @@
         }
     }
     &-descr {
+        display: flex;
         justify-content: flex-end;
         font-size: 18px;
         font-weight: 500;

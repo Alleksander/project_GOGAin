@@ -1,8 +1,5 @@
 .terms {
-    height: 1000px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: var(--sect-pt) 0;
     &__wrapper {
         display: flex;
         justify-content: space-around;
@@ -19,7 +16,7 @@
     }
     &__item {
         position: relative;
-        padding: 15px 0 15px 60px;
+        padding: 15px 0 15px 75px;
         font-weight: 500;
         font-size: 32px;
         &:before {
@@ -27,10 +24,11 @@
             background: url('../img/coin-icon.svg') center center/cover no-repeat;
             display: block;
             position: absolute;
-            left: 10px;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
             width: 55px;
             height: 55px;
-            transform: translateX(-50%);
         }
     }
 }

@@ -1,5 +1,10 @@
 .primary {
-    background-color: #4A98D3;
+    &_bgblue {
+        background-color: #4A98D3;
+    }
+    &_bggreen {
+        background-color: #5FC096;
+    }
     &__text {
         height: 900px;
         display: flex;

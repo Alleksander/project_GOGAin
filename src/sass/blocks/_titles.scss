@@ -2,6 +2,10 @@
     font-size: 64px;
     font-weight: 500;
     margin-bottom: 0;
+    &_fz64 {
+        font-size: 64px; 
+        font-weight: 500;
+    }
     &_center {
         text-align: center;
     }
@@ -10,5 +14,9 @@
         color: #fff;
         font-size: 70px;
         font-weight: 700;
+    }
+    &_fz31 {
+        font-size: 31px;
+        line-height: 34px;
     }
 }

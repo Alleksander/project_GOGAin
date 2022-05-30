@@ -7,7 +7,9 @@
         --sect-pt: 100px;
     }
     .title {
-        font-size: 50px;
+        &_fz64 {
+            font-size: 50px;
+        }
     }
     .btn {
         &_big {
@@ -99,6 +101,11 @@
             }
         }
     }
+    .articles {
+        &__wrapper {
+            height: 1250px;
+        }
+    }
 }
 
 @media (max-width: 1439px) {
@@ -110,7 +117,16 @@
         --sect-pt: 80px;
     }
     .title {
-        font-size: 40px;
+        &_fz64 {
+            font-size: 40px;
+        }
+        &_big {
+            font-size: 45px;
+        }
+        &_fz31 {
+            font-size: 27px;
+            line-height: 30px;
+        }
     }
     .btn {
         &_white32 {
@@ -367,6 +383,29 @@
             }
         }
     }
+    .articles {
+        &__wrapper {
+            height: 1050px;
+        }
+        &__item {
+            width: 530px;
+            height: 500px;
+            &-text {
+                padding: 15px 25px;
+            }
+            &-data {
+                font-size: 14px;
+            }
+            &-descr {
+                font-size: 17px;
+                margin-top: 20px;
+            }
+            &-link {
+                margin-top: 20px;
+                font-size: 16px;
+            }
+        }
+    }
 }
 
 @media (max-width: 1200px) {
@@ -378,7 +417,16 @@
         --sect-pt: 60px;
     }
     .title {
-        font-size: 33px;
+        &_fz64 {
+            font-size: 33px;
+        }
+        &_big {
+            font-size: 40px;
+        }
+        &_fz31 {
+            font-size: 23px;
+            line-height: 26px;
+        }
     }
     .btn {
         &_big {
@@ -610,6 +658,32 @@
             }
         }
     }
+    .articles {
+        &__wrapper {
+            height: 860px;
+        }
+        &__item {
+            width: 440px;
+            height: 410px;
+            &-text {
+                padding: 10px 20px;
+            }
+            &-data {
+                font-size: 13px;
+            }
+            &-header {
+                margin-top: 5px;
+            }
+            &-descr {
+                font-size: 15px;
+                margin-top: 10px;
+            }
+            &-link {
+                margin-top: 10px;
+                font-size: 14px;
+            }
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -621,7 +695,16 @@
         --sect-pt: 50px;
     }
     .title {
-        font-size: 28px;
+        &_fz64 {
+            font-size: 28px;
+        }
+        &_big {
+            font-size: 33px;
+        }
+        &_fz31 {
+            font-size: 18px;
+            line-height: 21px;
+        }
     }
     .btn {
         &_big {
@@ -883,6 +966,32 @@
             }
         }
     }
+    .articles {
+        &__wrapper {
+            height: 750px;
+        }
+        &__item {
+            width: 340px;
+            height: 360px;
+            &-text {
+                padding: 10px 20px;
+            }
+            &-data {
+                font-size: 11px;
+            }
+            &-header {
+                margin-top: 5px;
+            }
+            &-descr {
+                font-size: 13px;
+                margin-top: 10px;
+            }
+            &-link {
+                margin-top: 10px;
+                font-size: 12px;
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -897,7 +1006,15 @@
         --sect-pt: 40px;
     }
     .title {
-        text-align: center;
+        &_fz64 {
+            text-align: center;
+        }&_big {
+            font-size: 26px;
+        }
+        &_fz31 {
+            font-size: 23px;
+            line-height: 26px;
+        }
     }
     .btn {
         font-weight: 500;
@@ -1144,6 +1261,32 @@
             }
         }
     }
+    .articles {
+        &__wrapper {
+            height: 1700px;
+        }
+        &__item {
+            width: 440px;
+            height: 410px;
+            &-text {
+                padding: 10px 20px;
+            }
+            &-data {
+                font-size: 13px;
+            }
+            &-header {
+                margin-top: 5px;
+            }
+            &-descr {
+                font-size: 15px;
+                margin-top: 10px;
+            }
+            &-link {
+                margin-top: 10px;
+                font-size: 14px;
+            }
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -1156,7 +1299,16 @@
         --sect-pt: 30px;
     }
     .title {
-        font-size: 25px;
+        &_fz64 {
+            font-size: 25px;
+        }
+        &_big {
+            line-height: 28px;
+        }
+        &_fz31 {
+            font-size: 19px;
+            line-height: 22px;
+        }
     }
     .btn {
         font-weight: 500;
@@ -1294,16 +1446,22 @@
             }
         }
         &__wrapper {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 300px;
+            width: 300px;
             div {
                 &:first-child {
-                    transform: scale(0.15);
-                    top: -45%;
-                    left: -28%;
+                    transform: scale(.25);
+                    top: -26%;
+                    left: 37%;
                 }
                 &:nth-child(2) {
-                    transform: scale(0.2);
+                    transform: scale(0.18);
                     top: 45%;
-                    left: -35%;
+                    left: -17%;
                 }
                 &:last-child {
                     transform: scale(0.3);
@@ -1355,6 +1513,32 @@
             line-height: 14px;
             span {
                 font-size: 14px;
+            }
+        }
+    }.articles {
+        &__wrapper {
+            height: 1250px;
+        }
+        &__item {
+            width: 285px;
+            height: 300px;
+            &-img {
+                height: 45%;
+            }
+            &-text {
+                height: 55%;
+                padding: 10px;
+            }
+            &-data {
+                font-size: 11px;
+                font-weight: 400;
+            }
+            &-descr {
+                font-size: 13px;
+            }
+            &-link {
+                margin-top: 8px;
+                font-size: 12px;
             }
         }
     }

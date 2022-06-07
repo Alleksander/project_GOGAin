@@ -1,0 +1,75 @@
+.carousel {
+    &__inner {
+        padding: 50px 0;
+        position: relative;
+        width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slick-prev, .slick-next {
+        position: absolute;
+        background-color: #fff;
+        border: none;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -140px;
+        img {
+            height: 80px;
+        }
+    }
+    .slick-next {
+        left: auto;
+        right: -140px;
+    }
+    .slick-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__item {
+        position: relative;
+        height: 500px;
+        &-bg {
+            position: absolute;
+            z-index: -1;
+            height: 100%;
+            width: 100%;
+        }
+        &-front {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            &_first {
+                transform: rotate(-2deg);
+            }
+            &_second {
+                transform: rotate(2deg);
+            }
+            &_third {
+                transform: rotate(0deg);
+            }
+            &_fourth {
+                transform: rotate(2deg);
+            }
+            &_fifth {
+                transform: rotate(-2deg);
+            }
+            &_sixth {
+                transform: rotate(0deg);
+            }
+        }
+        &-title {
+            font-size: 100px;
+            line-height: 110px;
+            font-weight: 300;
+        }
+        &-subtitle {
+            font-size: 40px;
+            font-weight: 300;
+        }
+    }
+}

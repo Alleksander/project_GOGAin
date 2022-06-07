@@ -1,0 +1,80 @@
+.products {
+    padding: var(--sect-pt) 0;
+    &__group {
+        &:not(:first-child) {
+            margin-top: var(--sect-pt);
+        }
+        &-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &-divider {
+            margin-top: 50px;
+            width: 100%;
+            border-top: 1px solid #000;
+        }
+        &-wrapper {
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+    &__item {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 470px;
+        height: 600px;
+        border: 1px solid #000;
+        border-radius: 10px 10px 0 0;
+        &-title {
+            padding: 0 30px;
+            height: 18%;
+            display: flex;
+            align-items: center;
+        }
+        &-img {
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+            height: 72%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                height: 80%;
+            }
+        }
+        &-footer {
+            height: 10%;
+            padding: 0 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &-rating {
+            position: relative;
+            padding-left: 40px;
+            font-weight: 400;
+            font-size: 18px;
+            &:before {
+                content: '';
+                background: url('../icons/star.svg') center center/cover no-repeat;
+                display: block;
+                position: absolute;
+                height: 16px;
+                width: 16px;
+                left: 15px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+        &-cost {
+            padding: 7px 15px;
+            background-color: #FFC41C;
+            font-weight: 400;
+            font-size: 18px;
+        }
+    }
+}

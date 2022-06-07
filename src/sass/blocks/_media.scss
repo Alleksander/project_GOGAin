@@ -106,6 +106,20 @@
             height: 1250px;
         }
     }
+    .carousel {
+        .slick-prev {
+            left: -100px;
+        }
+        .slick-next {
+            right: -100px;
+        }
+    }
+    .products {
+        &__item {
+            width: 450px;
+            margin-top: 15px;
+        }
+    }
 }
 
 @media (max-width: 1439px) {
@@ -117,15 +131,25 @@
         --sect-pt: 80px;
     }
     .title {
-        &_fz64 {
-            font-size: 40px;
-        }
         &_big {
             font-size: 45px;
+        }
+        &_fz20 {
+            font-size: 18px;
+            line-height: 20px;
         }
         &_fz31 {
             font-size: 27px;
             line-height: 30px;
+        }
+        &_fz40 {
+            font-size: 35px;
+        }
+        &_fz50 {
+            font-size: 40px;
+        }
+        &_fz64 {
+            font-size: 40px;
         }
     }
     .btn {
@@ -170,6 +194,14 @@
         &__text {
             margin-top: 30px;
             font-size: 25px;
+        }
+        &__form {
+            width: 70%;
+            &-search {
+                height: 60px;
+                font-size: 22px;
+                padding: 15px 50px 15px 150px;
+            }
         }
     }
     .start {
@@ -406,6 +438,51 @@
             }
         }
     }
+    .carousel {
+        &__inner {
+            width: 900px;
+        }
+        .slick-prev {
+            left: -80px;
+        }
+        .slick-next {
+            right: -80px;
+        }
+        &__item {
+            height: 400px;
+            &-title {
+                font-size: 80px;
+                line-height: 85px;
+            }
+            &-subtitle {
+                font-size: 35px;
+            }
+        }
+    }
+    .products {
+        &__group {
+            &-divider {
+                margin-top: 40px;
+            }
+            &-wrapper {
+                margin-top: 40px;
+            }
+        }
+        &__item {
+            width: 370px;
+            height: 450px;
+            &-rating {
+                font-size: 16px;
+                &:before {
+                    top: 49%;
+                }
+            }
+            &-cost {
+                padding: 4px 12px;
+                font-size: 16px;
+            }
+        }
+    }
 }
 
 @media (max-width: 1200px) {
@@ -417,21 +494,35 @@
         --sect-pt: 60px;
     }
     .title {
-        &_fz64 {
-            font-size: 33px;
-        }
         &_big {
             font-size: 40px;
+        }
+        &_fz20 {
+            font-size: 16px;
+            line-height: 18px;
         }
         &_fz31 {
             font-size: 23px;
             line-height: 26px;
+        }
+        &_fz40 {
+            font-size: 30px;
+        }
+        &_fz50 {
+            font-size: 35px;
+        }
+        &_fz64 {
+            font-size: 33px;
         }
     }
     .btn {
         &_big {
             padding: 15px 70px;
             font-size: 26px;
+        }
+        &_white20 {
+            padding: 10px 35px;
+            font-size: 18px;
         }
         &_white32 {
             padding: 10px 40px;
@@ -474,6 +565,12 @@
         &__text {
             margin-top: 25px;
             font-size: 20px;
+        }
+        &__header {
+            margin-top: 30px;
+        }
+        &__form {
+            width: 80%;
         }
     }
     .start {
@@ -684,6 +781,59 @@
             }
         }
     }
+    .carousel {
+        &__inner {
+            width: 750px;
+        }
+        .slick-prev {
+            left: -60px;
+        }
+        .slick-next {
+            right: -60px;
+        }
+        &__item {
+            height: 300px;
+            &-title {
+                font-size: 60px;
+                line-height: 65px;
+            }
+            &-subtitle {
+                font-size: 25px;
+            }
+        }
+    }
+    .products {
+        &__group {
+            &-divider {
+                margin-top: 30px;
+            }
+            &-wrapper {
+                margin-top: 30px;
+            }
+        }
+        &__item {
+            width: 310px;
+            height: 340px;
+            margin-top: 10px;
+            &-img {
+                height: 70%;
+            }
+            &-footer {
+                height: 12%;
+            }
+            &-rating {
+                font-size: 14px;
+                &:before {
+                    top: 49%;
+                    height: 14px;
+                }
+            }
+            &-cost {
+                padding: 4px 12px;
+                font-size: 14px;
+            }
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -695,9 +845,6 @@
         --sect-pt: 50px;
     }
     .title {
-        &_fz64 {
-            font-size: 28px;
-        }
         &_big {
             font-size: 33px;
         }
@@ -705,10 +852,22 @@
             font-size: 18px;
             line-height: 21px;
         }
+        &_fz40 {
+            font-size: 26px;
+        }
+        &_fz50 {
+            font-size: 28px;
+        }
+        &_fz64 {
+            font-size: 28px;
+        }
     }
     .btn {
         &_big {
             font-size: 21px;
+        }
+        &_white20 {
+            font-size: 16px;
         }
         &_white32 {
             padding: 10px 30px;
@@ -749,6 +908,18 @@
         }
         &__text {
             font-size: 16px;
+        }
+        &__header {
+            margin-top: 20px;
+        }
+        &__form {
+            width: 90%;
+            margin-top: 50px;
+            &-search {
+                height: 50px;
+                font-size: 20px;
+                padding: 15px 40px 15px 130px;
+            }
         }
     }
     .start {
@@ -992,6 +1163,64 @@
             }
         }
     }
+    .carousel {
+        &__inner {
+            width: 600px;
+        }
+        .slick-prev, .slick-next {
+            img {
+                height: 60px;
+            }
+        }
+        .slick-prev {
+            left: -50px;
+        }
+        .slick-next {
+            right: -50px;
+        }
+        &__item {
+            height: 250px;
+            &-title {
+                font-size: 45px;
+                line-height: 50px;
+            }
+            &-subtitle {
+                font-size: 20px;
+            }
+        }
+    }
+    .products {
+        &__group {
+            &-divider {
+                margin-top: 20px;
+            }
+            &-wrapper {
+                margin-top: 20px;
+            }
+        }
+        &__item {
+            width: 350px;
+            height: 390px;
+            margin-top: 20px;
+            &-img {
+                height: 70%;
+            }
+            &-footer {
+                height: 12%;
+            }
+            &-rating {
+                font-size: 14px;
+                &:before {
+                    top: 49%;
+                    height: 14px;
+                }
+            }
+            &-cost {
+                padding: 4px 12px;
+                font-size: 14px;
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -1006,14 +1235,18 @@
         --sect-pt: 40px;
     }
     .title {
-        &_fz64 {
-            text-align: center;
-        }&_big {
+        &_big {
             font-size: 26px;
         }
         &_fz31 {
             font-size: 23px;
             line-height: 26px;
+        }
+        &_fz40 {
+            font-size: 22px;
+        }
+        &_fz64 {
+            text-align: center;
         }
     }
     .btn {
@@ -1025,6 +1258,9 @@
                 color: #fff;
                 background-color: #000;
             }
+        }
+        &_white20 {
+            padding: 8px 25px;
         }
         &_white32 {
             padding: 8px 20px;
@@ -1085,6 +1321,18 @@
         }
         &__text {
             text-align: justify;
+        }
+        &__form {
+            width: 95%;
+            &-search {
+                height: 50px;
+                font-size: 17px;
+                padding: 15px 20px 15px 90px;
+            }
+            &-icon {
+                left: 20px;
+                height: 60px;
+            }
         }
     }
     .start {
@@ -1287,6 +1535,39 @@
             }
         }
     }
+    .carousel {
+        &__inner {
+            width: 100%;
+            padding: 30px 0;
+            flex-wrap: wrap;
+        }
+        .slick-dots {
+            margin-top: 25px;
+            margin-bottom: 0;
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            padding-bottom: 0;
+            button {
+                width: 15px;
+                height: 15px;
+                border: none;
+                border-radius: 100%;
+                background-color: #000;
+                margin: 0 20px;
+                padding: 0;
+                overflow: hidden;
+            }
+        }
+    }
+    .products {
+        &__group {
+            &-wrapper {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -1299,15 +1580,18 @@
         --sect-pt: 30px;
     }
     .title {
-        &_fz64 {
-            font-size: 25px;
-        }
         &_big {
             line-height: 28px;
         }
         &_fz31 {
             font-size: 19px;
             line-height: 22px;
+        }
+        &_fz50 {
+            font-size: 23px;
+        }
+        &_fz64 {
+            font-size: 25px;
         }
     }
     .btn {
@@ -1337,6 +1621,18 @@
         }
         h1 {
             font-size: 50px;
+        }
+        &__form {
+            width: 100%;
+            margin-top: 30px;
+            &-search {
+                height: 35px;
+                font-size: 14px;
+                padding: 10px 15px;
+            }
+            &-icon {
+                display: none;
+            }
         }
     }
     .start {
@@ -1515,7 +1811,8 @@
                 font-size: 14px;
             }
         }
-    }.articles {
+    }
+    .articles {
         &__wrapper {
             height: 1250px;
         }
@@ -1539,6 +1836,50 @@
             &-link {
                 margin-top: 8px;
                 font-size: 12px;
+            }
+        }
+    }
+    .carousel {
+        &__inner {
+            padding: 15px 0;
+        }
+        .slick-dots {
+            margin-top: 20px;
+            button {
+                margin: 0 15px;
+            }
+        }
+        &__item {
+            height: 150px;
+            &-title {
+                font-size: 27px;
+                line-height: 30px;
+            }
+            &-subtitle {
+                font-size: 15px;
+            }
+        }
+    }
+    .products {
+        &__group {
+            &-header {
+                flex-direction: column;
+            }
+            &-btn {
+                margin-top: 10px;
+            }
+            &-divider {
+                margin-top: 15px;
+            }
+            &-wrapper {
+                margin-top: 15px;
+            }
+        }
+        &__item {
+            width: 285px;
+            height: 320px;
+            &-title {
+                padding: 0 15px;
             }
         }
     }

@@ -22,8 +22,7 @@
         margin-top: 70px;
     }
     &__epigraph {
-        margin: 0 auto;
-        margin-top: 50px;
+        margin: 50px auto;
         width: 75%;
         &-text {
             font-size: 36px;
@@ -37,7 +36,44 @@
         }
     }
     &__text {
-        margin: 80px 0 0 0;
+        margin-top: 20px;
+        margin-bottom: 0;
         font-size: 32px;
+        &_fz40 {
+            font-size: 40px;
+            font-weight: 300;
+            text-align: center;
+            color: #707071;
+        }
+    }
+    &__header {
+        margin-top: 50px;
+    }
+    &__form {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        margin-top: 90px;
+        width: 60%;
+        &-search {
+            padding: 20px 60px 20px 150px;
+            height: 70px;
+            width: 100%;
+            border: 1px solid #707071;
+            border-radius: 25px;
+            font-size: 26px;
+            font-weight: 300;
+            color: #707071;
+        }
+        &-icon {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 30px;
+            height: 80px;
+            img {
+                height: 100%;
+            }
+        }
     }
 }

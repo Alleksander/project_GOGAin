@@ -1,0 +1,75 @@
+.donation {
+    padding-top: var(--sect-pt);
+    padding-bottom: 210px;
+    &__text {
+        margin-top: 143px;
+        width: 85%;
+        font-weight: 300;
+        color: #231F20;
+        font-size: var(--main-fz);
+        line-height: calc(var(--main-fz) * 1.1);
+        text-align: justify;
+    }
+    &__coins {
+        div {
+            position: absolute;
+            &:first-child {
+                transform: scale(0.60) rotate(-15deg);
+                left: 1000px;
+                top: -60px;
+            }
+            &:nth-child(2) {
+                transform: scale(0.25) rotate(-5deg);
+                left: 1190px;
+                top: 0;
+            }
+            &:nth-child(3) {
+                transform: scale(0.5);
+                left: 1190px;
+                top: 120px;
+            }
+        }
+    }
+    &__img {
+        width: 100%;
+    }
+    &__money {
+        margin: 0 auto;
+        margin-top: 150px;
+        padding: 63px;
+        width: 1264px;
+        border: 0.5px solid #231F20;
+        border-radius: 15px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        &-form {
+            position: relative;
+        }
+        input {
+            padding: 15px 20px;
+            width: 328px;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 28px;
+            color: #969696;
+            border: none;
+            border-radius: 10px;
+            background-color: #EAEAEA;
+            &:last-child {
+                position: absolute;
+                padding: 0;
+                width: 28px;
+                right: 15px;
+                top: 15px;
+            }
+        }
+    }
+    &__form {
+        display: none;
+    }
+    &__btn {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,33 @@
+@import './libs/bootstrap-reboot.min';
+@import './libs/font';
+
+* {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-fz: 37px;
+    --sect-pt: 120px;
+}
+
+.container {
+    position: relative;
+    width: 1450px;
+    margin: 0 auto;
+}
+
+@import './blocks/titles';
+@import './blocks/buttons';
+@import './blocks/menu';
+@import './blocks/promo';
+@import './blocks/try';
+@import './blocks/start';
+@import './blocks/examples';
+@import './blocks/donation';
+@import './blocks/work';
+@import './blocks/footer';
+
+@import './blocks/media';

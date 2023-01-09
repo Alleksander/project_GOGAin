@@ -34,6 +34,7 @@
     "not dead"
   ],
   "dependencies": {
-    "gulp-imagemin": "^7.1.0"
+    "gulp-imagemin": "^7.1.0",
+    "jquery": "^3.6.3"
   }
 }

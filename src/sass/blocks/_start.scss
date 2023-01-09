@@ -1,6 +1,9 @@
 .start {
     &__wrapper {
         margin-top: 30px;
+        &-sample {
+            margin: 90px auto;
+        }
     }
     &__instruction {
         margin-top: 30px;

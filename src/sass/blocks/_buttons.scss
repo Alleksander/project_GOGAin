@@ -52,4 +52,52 @@
             background-color: #000;
         }
     }
+    &_yellow {
+        padding: 15px 0px;
+        width: 100%;
+        background-color: #FFCE07;
+        color: #353535;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        border-radius: 20px;
+        &:hover {
+            color: #FFCD34;
+            background-color: #000;
+        }
+    }
+    &_mini {
+        padding: 0;
+        margin: 0;
+        height: 60px;
+        width: 140px;
+        border-radius: 12px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #000;
+        background-color: #fff;
+        border: 1px solid #000;
+        transition: all 0.3s;
+        &:hover {
+            color: #fff;
+            background-color: #000;
+            border: 1px solid #fff;
+        }
+    }
+    &_wide {
+        width: 100%;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+        border: 1px solid #000;
+        border-radius: 15px;
+        &:hover {
+            color: #000;
+            background-color: #fff;
+            border: 1px solid #000;
+        }
+    }
 }

@@ -43,3 +43,10 @@ closeElem.addEventListener('click', () => {
 menuOverlay.addEventListener('click', () => {
     mobile.classList.remove('active');
 });
+
+//Remove active classes
+
+$('button.btn_mini').on('click', 'button:not(.btn_mini-active)', function() {
+    $(this)
+      .addClass('btn_mini-active').siblings().removeClass('btn_mini-active');
+});

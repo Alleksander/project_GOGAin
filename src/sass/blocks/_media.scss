@@ -1,12 +1,15 @@
 @media (max-width: 1536px) {
     .container {
-        width: 1380px;
+        width: 1080px;
     }
     :root {
         --main-fz: 33px;
         --sect-pt: 100px;
     }
     .title {
+        &_big {
+            line-height: 1.1;
+        }
         &_fz64 {
             font-size: 50px;
         }
@@ -19,19 +22,18 @@
     .menu {
         &__item {
             &-link {
-                padding: 15px 100px;
+                padding: 15px 65px;
             }
         }
     }
-    .promo {
-        &__block {
-            &_gray {
-                transform: translateY(-365px);
-            }
+    .start {
+        &__item {
+            margin: 0 20px;
         }
     }
     .examples {
         &__wrapper {
+            left: -130px;
             img {
                 &:first-child {
                     transform: scale(0.35) rotate(11deg);
@@ -93,12 +95,12 @@
         }
     }
     .profit {
-        height: 680px;
+        height: 565px;
         &__bg {
-            height: 680px;
+            height: 565px;
         }
         &__img {
-            height: 680px;
+            height: 565px;
         }
         &__text {
             font-size: 40px;
@@ -109,29 +111,52 @@
         }
     }
     .articles {
-        &__wrapper {
-            height: 1250px;
+        &__item {
+            height: 530px;
+            &-descr {
+                margin-top: 20px;
+            }
         }
     }
     .carousel {
+        &__inner {
+            width: 100%;
+        }
         .slick-prev {
-            left: -100px;
+            left: -80px;
         }
         .slick-next {
-            right: -100px;
+            right: -80px;
+        }
+        &__item {
+            height: 450px;
         }
     }
-    .products {
-        &__item {
-            width: 450px;
-            margin-top: 15px;
+    .donation {
+        &__coins {
+            div {
+                &:first-child {
+                    transform: scale(0.40) rotate(-15deg);
+                    left: 720px;
+                    top: -15px;
+                }
+                &:nth-child(2) {
+                    left: 900px;
+                    top: 75px;
+                }
+                &:nth-child(3) {
+                    transform: scale(0.5);
+                    left: 905px;
+                    top: 160px;
+                }
+            }
         }
     }
 }
 
 @media (max-width: 1439px) {
     .container {
-        width: 1140px;
+        width: 900px;
     }
     :root {
         --main-fz: 27px;
@@ -177,7 +202,6 @@
             border-radius: 15px;
         }
         &_mini {
-            width: 100px;
             height: 45px;
             font-size: 20px;
             line-height: 24px;
@@ -191,7 +215,7 @@
         &__item {
             &-link {
                 font-size: 25px;
-                padding: 10px 80px;
+                padding: 10px 57px;
             }
         }
     }
@@ -232,12 +256,6 @@
                 padding: 15px 50px 15px 150px;
             }
         }
-        &__block {
-            &_gray {
-                transform: translateY(-275px);
-                height: 100px;
-            }
-        }
     }
     .start {
         &__wrapper {
@@ -250,10 +268,9 @@
         }
         &__item {
             margin: 0 15px;
-            width: 250px;
-            height: 250px;
+            height: 200px;
             &-icon {
-                height: 180px;
+                height: 130px;
             }
             &-descr {
                 font-size: 24px;
@@ -266,8 +283,8 @@
                 }
             }
             &-down {
-                width: 680px;
                 margin: 15px auto 0 auto;
+                width: 63%;
                 img {
                     width: 120px;
                 }
@@ -285,6 +302,8 @@
             }
         }
         &__wrapper {
+            left: -110px;
+            top: -60px;
             &-sample {
                 top: -70px;
             }
@@ -308,18 +327,18 @@
         }
     }
     .buyers {
-        padding-top: 240px;
+        padding-top: 130px;
         &__text {
             margin-top: 40px;
         }
         &__earnings {
             height: 677px;
             &-sum {
-                font-size: 180px;
-                line-height: 180px;
+                font-size: 150px;
+                line-height: 160px;
             }
             &-descr {
-                font-size: 30px;
+                font-size: 26px;
             }
         }
         &__wrapper {
@@ -360,7 +379,7 @@
         }
     }
     .footer {
-        padding: 25px 30px;
+        padding: 25px 150px;
         &__info {
             width: 45%;
         }
@@ -385,7 +404,7 @@
         }
         &__wrapper {
             margin-top: 25px;
-            width: 40%;
+            width: 45%;
         }
         &__social {
             margin-top: 30px;
@@ -449,12 +468,12 @@
         }
     }
     .profit {
-        height: 570px;
+        height: 475px;
         &__bg {
-            height: 570px;
+            height: 475px;
         }
         &__img {
-            height: 570px;
+            height: 475px;
         }
         &__text {
             font-size: 34px;
@@ -465,12 +484,8 @@
         }
     }
     .articles {
-        &__wrapper {
-            height: 1050px;
-        }
         &__item {
-            width: 530px;
-            height: 500px;
+            height: 470px;
             &-text {
                 padding: 15px 25px;
             }
@@ -488,14 +503,11 @@
         }
     }
     .carousel {
-        &__inner {
-            width: 900px;
-        }
         .slick-prev {
-            left: -80px;
+            left: -60px;
         }
         .slick-next {
-            right: -80px;
+            right: -60px;
         }
         &__item {
             height: 400px;
@@ -518,8 +530,7 @@
             }
         }
         &__item {
-            width: 370px;
-            height: 450px;
+            height: 400px;
             &-rating {
                 font-size: 16px;
                 &:before {
@@ -564,18 +575,18 @@
         &__coins {
             div {
                 &:first-child {
-                    transform: scale(0.35) rotate(-15deg);
-                    left: 770px;
-                    top: -90px;
+                    transform: scale(0.25) rotate(-15deg);
+                    left: 580px;
+                    top: -80px;
                 }
                 &:nth-child(2) {
                     transform: scale(0.15) rotate(-5deg);
-                    left: 900px;
-                    top: -40px;
+                    left: 700px;
+                    top: -15px;
                 }
                 &:nth-child(3) {
-                    transform: scale(0.35);
-                    left: 900px;
+                    transform: scale(0.25);
+                    left: 700px;
                     top: 30px;
                 }
             }
@@ -583,12 +594,10 @@
         &__money {
             margin-top: 60px;
             padding: 50px;
-            width: 1000px;
         }
         &__wrapper {
             input {
                 padding: 11px 20px;
-                width: 300px;
                 font-size: 20px;
                 line-height: 24px;
                 &:last-child {
@@ -659,7 +668,6 @@
             border-radius: 10px;
         }
         &_mini {
-            width: 80px;
             height: 36px;
             border-radius: 10px;
             font-size: 17px;
@@ -710,12 +718,6 @@
         &__form {
             width: 80%;
         }
-        &__block {
-            &_gray {
-                transform: translateY(-270px);
-                height: 110px;
-            }
-        }
     }
     .start {
         &__wrapper {
@@ -725,7 +727,6 @@
         }
         &__item {
             margin: 0 10px;
-            width: 200px;
             height: 200px;
             &-icon {
                 height: 150px;
@@ -738,14 +739,10 @@
                 font-size: 18px;
             }
         }
-        &__arrow {
-            &-down {
-                width: 565px;
-            }
-        }
     }
     .examples {
         &__wrapper {
+            left: 0px;
             img {
                 &:first-child {
                     transform: scale(0.25) rotate(11deg);
@@ -913,11 +910,7 @@
         }
     }
     .articles {
-        &__wrapper {
-            height: 860px;
-        }
         &__item {
-            width: 440px;
             height: 410px;
             &-text {
                 padding: 10px 20px;
@@ -969,7 +962,6 @@
             }
         }
         &__item {
-            width: 310px;
             height: 340px;
             margin-top: 10px;
             &-img {
@@ -1037,7 +1029,6 @@
         &__money {
             margin-top: 50px;
             padding: 40px;
-            width: 850px;
         }
         &__wrapper {
             input {
@@ -1102,7 +1093,6 @@
             font-size: 20px;
         }
         &_mini {
-            width: 75px;
             height: 34px;
         }
     }
@@ -1152,16 +1142,9 @@
                 padding: 15px 40px 15px 130px;
             }
         }
-        &__block {
-            &_gray {
-                height: 75px;
-                transform: translateY(-200px);
-            }
-        }
     }
     .start {
         &__item {
-            width: 150px;
             height: 150px;
             &-icon {
                 height: 110px;
@@ -1178,7 +1161,6 @@
                 }
             }
             &-down {
-                width: 420px;
                 img {
                     width: 80px;
                 }
@@ -1378,11 +1360,7 @@
         }
     }
     .articles {
-        &__wrapper {
-            height: 750px;
-        }
         &__item {
-            width: 340px;
             height: 360px;
             &-text {
                 padding: 10px 20px;
@@ -1439,7 +1417,7 @@
             }
         }
         &__item {
-            width: 350px;
+            width: 48.5%;
             height: 390px;
             margin-top: 20px;
             &-img {
@@ -1501,12 +1479,10 @@
         &__money {
             margin-top: 30px;
             padding: 25px;
-            width: 650px;
         }
         &__wrapper {
             input {
                 padding: 8px 15px;
-                width: 180px;
                 font-size: 16px;
             }
         }
@@ -1574,9 +1550,6 @@
             font-size: 20px;
             line-height: 24px;
         }
-        &_mini {
-            width: 60px;
-        }
     }
     .menu {
         flex-direction: column;
@@ -1613,7 +1586,8 @@
         }
         &__epigraph {
             &-sample {
-                margin-bottom: 20px;
+                margin-top: 40px;
+                margin-bottom: 40px;
             }
             &-text {
                 line-height: 22px;
@@ -1637,11 +1611,6 @@
                 height: 60px;
             }
         }
-        &__block {
-            &_gray {
-                transform: translateY(-215px);
-            }
-        }
     }
     .start {
         &__wrapper {
@@ -1650,7 +1619,6 @@
             }
         }
         &__item {
-            width: 120px;
             height: 120px;
             &-icon {
                 height: 75px;
@@ -1660,11 +1628,6 @@
                 font-size: 16px;
                 line-height: 14px;
                 font-weight: 500;
-            }
-        }
-        &__arrow {
-            &-down {
-                width: 350px;
             }
         }
     }
@@ -1823,9 +1786,6 @@
         }
     }
     .articles {
-        &__wrapper {
-            height: 1700px;
-        }
         &__item {
             width: 440px;
             height: 410px;
@@ -1880,6 +1840,9 @@
                 align-items: center;
             }
         }
+        &__item {
+            width: 340px;
+        }
     }
     .try {
         &__development {
@@ -1922,11 +1885,10 @@
         }
         &__money {
             padding: 15px;
-            width: 520px;
         }
         &__wrapper {
-            input {
-                width: 150px;
+            &-form {
+                width: 30%;
             }
         }
     }
@@ -1952,6 +1914,7 @@
         &_fz48 {
             font-size: 20px;
             line-height: 23px;
+            text-align: center;
         }
         &_fz50 {
             font-size: 23px;
@@ -1967,8 +1930,8 @@
             font-size: 16px;
         }
         &_mini {
-            width: 50px;
-            font-size: 15px;
+            width: 18%;
+            font-size: 11px;
         }
         &_wide {
             margin-top: 10px;
@@ -2007,32 +1970,19 @@
                 display: none;
             }
         }
-        &__block {
-            &_gray {
-                display: none;
-            }
-        }
     }
     .start {
         &__wrapper {
             position: relative;
         }
         &__instruction {
-            flex-direction: column;
-            align-items: center;
+            flex-wrap: wrap;
+            width: 290px;
+            margin: 0 auto;
         }
         &__item {
-            width: 200px;
-            height: 200px;
-            margin: 15px 0;
-            &-icon {
-                height: 150px;
-            }
-            &-descr {
-                height: 49px;
-                font-size: 21px;
-                font-weight: 500;
-            }
+            margin-bottom: 20px;
+            width: 40%;
         }
         &__arrow {
             &-up, &-down {
@@ -2191,9 +2141,6 @@
         }
     }
     .articles {
-        &__wrapper {
-            height: 1250px;
-        }
         &__item {
             width: 285px;
             height: 300px;
@@ -2286,8 +2233,8 @@
             display: none;
         }
         &__money {
-            padding: 5px;
-            width: 290px;
+            padding: 20px;
+            width: 90%;
         }
         &__wrapper {
             &-form {

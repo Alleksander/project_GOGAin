@@ -6,7 +6,7 @@
         font-size: var(--main-fz);
         text-align: justify;
         &_small {
-            width: 50%;
+            width: 40%;
         }
     }
     &__earnings {
@@ -23,13 +23,13 @@
             width: 100%;
         }
         &-sum {
-            font-size: 248px;
-            line-height: 248px;
+            font-size: 210px;
+            line-height: 240px;
             font-weight: 950;
             text-align: center;
         }
         &-descr {
-            font-size: 42px;
+            font-size: 36px;
             font-weight: 700;
             text-align: center;
         }

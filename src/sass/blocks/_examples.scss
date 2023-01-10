@@ -5,7 +5,7 @@
         width: 50%;
         font-size: var(--main-fz);
         line-height: calc(var(--main-fz) * 1.1);
-        text-align: justify;
+        text-align: left;
         &-sample {
             margin-bottom: 100px;
             text-align: left;
@@ -16,8 +16,12 @@
         }
     }
     &__wrapper {
+        position: absolute;
+        left: -160px;
+        top: -130px;
         &-sample {
             position: absolute;
+            left: -160px;
             top: -130px;
         }
         img {

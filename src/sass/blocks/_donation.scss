@@ -14,19 +14,19 @@
         div {
             position: absolute;
             &:first-child {
-                transform: scale(0.60) rotate(-15deg);
-                left: 1000px;
-                top: -60px;
+                transform: scale(0.50) rotate(-15deg);
+                left: 770px;
+                top: -45px;
             }
             &:nth-child(2) {
-                transform: scale(0.25) rotate(-5deg);
-                left: 1190px;
-                top: 0;
+                transform: scale(0.30) rotate(-5deg);
+                left: 950px;
+                top: 35px;
             }
             &:nth-child(3) {
-                transform: scale(0.5);
-                left: 1190px;
-                top: 120px;
+                transform: scale(0.6);
+                left: 950px;
+                top: 145px;
             }
         }
     }
@@ -37,7 +37,7 @@
         margin: 0 auto;
         margin-top: 150px;
         padding: 63px;
-        width: 1264px;
+        width: 100%;
         border: 0.5px solid #231F20;
         border-radius: 15px;
     }
@@ -46,10 +46,11 @@
         justify-content: space-between;
         &-form {
             position: relative;
+            width: 25%;
         }
         input {
             padding: 15px 20px;
-            width: 328px;
+            width: 100%;
             font-weight: 300;
             font-size: 24px;
             line-height: 28px;

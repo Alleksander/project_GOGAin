@@ -70,7 +70,7 @@
         padding: 0;
         margin: 0;
         height: 60px;
-        width: 140px;
+        width: 13%;
         border-radius: 12px;
         font-weight: 400;
         font-size: 24px;
@@ -81,6 +81,11 @@
         border: 1px solid #000;
         transition: all 0.3s;
         &:hover {
+            color: #fff;
+            background-color: #000;
+            border: 1px solid #fff;
+        }
+        &-active {
             color: #fff;
             background-color: #000;
             border: 1px solid #fff;

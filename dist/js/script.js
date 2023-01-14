@@ -46,7 +46,17 @@ menuOverlay.addEventListener('click', () => {
 
 //Remove active classes
 
-$('button.btn_mini').on('click', 'button:not(.btn_mini-active)', function() {
-    $(this)
-      .addClass('btn_mini-active').siblings().removeClass('btn_mini-active');
-});
+// Get the container element
+var btnContainer = document.getElementById("donation__btns");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("btn_mini");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("btn_mini-active");
+    current[0].className = current[0].className.replace(" btn_mini-active", "");
+    this.className += " btn_mini-active";
+  });
+}

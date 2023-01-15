@@ -65,7 +65,7 @@
             <h2 class="title title_fz50 title_center promo__header">Сообщество</h2>
             <div class="promo__text promo__text_fz40">Ищите новое вдохновение среди таких же креативных людей</div>
             <form action="#" class="promo__form promo__form_wide">
-                <input class="promo__form-search" name="search" placeholder="Введите название, категорию, слово, что угодно" type="search">
+                <input class="promo__form-search" name="search" placeholder="Искомое слово" type="search">
                 <div class="promo__form-icon">
                     <img src="icons/search.svg" alt="search">
                 </div>
@@ -80,26 +80,41 @@
                     <h2 class="title title_fz40">Результат поиска по запросу “Искомое слово”</h2>
                 </div>
                 <div class="products__group-divider"></div>
-                <div class="products__group-wrapper">
+                <div class="products__group-wrapper products__group-wrapper_double">
                     <div class="products__filter">
-                        <div class="title title_fz20 products__filter-title">Показаны товары 1-8 из 36</div>
+                        <div class="products__filter-real">
+                            <div class="title title_fz20 products__filter-title">Показаны товары 1-8 из 36</div>
                         <div class="products__criterion">
                             <div class="products__criterion-item">
                                 <div class="title title_fz20 products__criterion-title">Сортировать по</div>
-                                <input class="products__input-string" type="text">
+                                <div>
+                                    <input class="products__input-string products__input-string_p22" list="filters" type="text" placeholder="Рекомендуемые">
+                                    <datalist id="filters">
+                                        <option value="Рекомендуемые">
+                                        <option value="второе">
+                                        <option value="третье">
+                                      </datalist>
+                                    <span class="products__input-list"></span>
+                                </div>
                             </div>
                             <div class="products__criterion-item">
                                 <div class="title title_fz20 products__criterion-title">Минимальная цена</div>
-                                <input class="products__input-string" type="text" placeholder="0">
+                                <div>
+                                    <input class="products__input-string" type="number" placeholder="0" name="sum">
+                                    <span class="products__input-ruble">₽</span>
+                                </div>
                             </div>
                             <div class="products__criterion-item">
                                 <div class="title title_fz20 products__criterion-title">Максимальная цена</div>
-                                <input class="products__input-string" type="text" placeholder="&#8734">
+                                <div>
+                                    <input class="products__input-string" type="number" placeholder="&#8734" name="sum">
+                                    <span class="products__input-ruble">₽</span>
+                                </div>
                             </div>
                             <div class="products__criterion-item">
                                 <div class="title title_fz20 products__criterion-title">Рейтинг</div>
                                 <div class="products__criterion-rating">
-                                    <div class="products__criterion-string">
+                                    <div class="products__string">
                                         <div class="products__criterion-stars">
                                             <img src="icons/star.svg" alt="star full" class="products__criterion-star">
                                             <img src="icons/star.svg" alt="star full" class="products__criterion-star">
@@ -108,9 +123,9 @@
                                             <img src="icons/star_empty.svg" alt="star empty" class="products__criterion-star">
                                             <span>и выше</span>
                                         </div>
-                                        <input class="products__input-radio" type="radio" name="rating">
+                                        <input class="products__input-rating" type="radio" name="rating">
                                     </div>
-                                    <div class="products__criterion-string">
+                                    <div class="products__string">
                                         <div class="products__criterion-stars">
                                             <img src="icons/star.svg" alt="star full" class="products__criterion-star">
                                             <img src="icons/star.svg" alt="star full" class="products__criterion-star">
@@ -119,20 +134,129 @@
                                             <img src="icons/star_empty.svg" alt="star empty" class="products__criterion-star">
                                             <span>и выше</span>
                                         </div>
-                                        <label class="products__label-rating" for="products-radio">
-                                            <input id="products-radio" class="products__input-rating" type="radio" name="rating">
-                                        </label>
+                                        <input class="products__input-rating" type="radio" name="rating">
+                                    </div>
+                                    <div class="products__string">
+                                        <div class="products__criterion-stars">
+                                            <img src="icons/star.svg" alt="star full" class="products__criterion-star">
+                                            <img src="icons/star.svg" alt="star full" class="products__criterion-star">
+                                            <img src="icons/star_empty.svg" alt="star full" class="products__criterion-star">
+                                            <img src="icons/star_empty.svg" alt="star full" class="products__criterion-star">
+                                            <img src="icons/star_empty.svg" alt="star empty" class="products__criterion-star">
+                                            <span>и выше</span>
+                                        </div>
+                                        <input class="products__input-rating" type="radio" name="rating">
+                                    </div>
+                                    <div class="products__string">
+                                        <div class="products__criterion-stars">
+                                            <img src="icons/star.svg" alt="star full" class="products__criterion-star">
+                                            <img src="icons/star_empty.svg" alt="star full" class="products__criterion-star">
+                                            <img src="icons/star_empty.svg" alt="star full" class="products__criterion-star">
+                                            <img src="icons/star_empty.svg" alt="star full" class="products__criterion-star">
+                                            <img src="icons/star_empty.svg" alt="star empty" class="products__criterion-star">
+                                            <span>и выше</span>
+                                        </div>
+                                        <input class="products__input-rating" type="radio" name="rating">
                                     </div>
                                 </div>
                             </div>
                             <div class="products__criterion-item">
                                 <div class="title title_fz20 products__criterion-title">Отображать</div>
-                                <input type="text">
+                                <div class="products__criterion-display">
+                                    <div class="products__string">
+                                        <div class="products__string-descr">
+                                            Все товары
+                                        </div>
+                                        <input class="products__input-display" type="checkbox" name="display">
+                                    </div>
+                                    <div class="products__string">
+                                        <div class="products__string-descr">
+                                            assets
+                                        </div>
+                                        <input class="products__input-display" type="checkbox" name="display">
+                                    </div>
+                                    <div class="products__string">
+                                        <div class="products__string-descr">
+                                            blender
+                                        </div>
+                                        <input class="products__input-display" type="checkbox" name="display">
+                                    </div>
+                                    <div class="products__string">
+                                        <div class="products__string-descr">
+                                            дизайн
+                                        </div>
+                                        <input class="products__input-display" type="checkbox" name="display">
+                                    </div>
+                                    <div class="products__string">
+                                        <div class="products__string-descr">
+                                            циклы
+                                        </div>
+                                        <input class="products__input-display" type="checkbox" name="display">
+                                    </div>
+                                    <div class="products__string">
+                                        <div class="products__string-descr">
+                                            изображения
+                                        </div>
+                                        <input class="products__input-display" type="checkbox" name="display">
+                                    </div>
+                                    <div class="products__string">
+                                        <div class="products__string-descr">
+                                            видео-урок
+                                        </div>
+                                        <input class="products__input-display" type="checkbox" name="display">
+                                    </div>
+                                </div>
+                                <a class="products__string-link" href="#">Показать больше</a>
                             </div>
                             <div class="products__criterion-item">
                                 <div class="title title_fz20 products__criterion-title">Содержит</div>
-                                <input type="text">
+                                <div class="products__criterion-contains">
+                                    <div class="products__string">
+                                        <div class="products__string-descr">
+                                            pdf
+                                        </div>
+                                        <input class="products__input-contains" type="checkbox" name="contains">
+                                    </div>
+                                    <div class="products__string">
+                                        <div class="products__string-descr">
+                                            zip
+                                        </div>
+                                        <input class="products__input-contains" type="checkbox" name="contains">
+                                    </div>
+                                    <div class="products__string">
+                                        <div class="products__string-descr">
+                                            mp4
+                                        </div>
+                                        <input class="products__input-contains" type="checkbox" name="contains">
+                                    </div>
+                                    <div class="products__string">
+                                        <div class="products__string-descr">
+                                            rar
+                                        </div>
+                                        <input class="products__input-contains" type="checkbox" name="contains">
+                                    </div>
+                                    <div class="products__string">
+                                        <div class="products__string-descr">
+                                            jpg
+                                        </div>
+                                        <input class="products__input-contains" type="checkbox" name="contains">
+                                    </div>
+                                    <div class="products__string">
+                                        <div class="products__string-descr">
+                                            png
+                                        </div>
+                                        <input class="products__input-contains" type="checkbox" name="contains">
+                                    </div>
+                                    <div class="products__string">
+                                        <div class="products__string-descr">
+                                            epub
+                                        </div>
+                                        <input class="products__input-contains" type="checkbox" name="contains">
+                                    </div>
+                                </div>
+                                <a class="products__string-link" href="#">Показать больше</a>
                             </div>
+                        </div>
                         </div>
                     </div>
                     <div class="products__group-items">

@@ -14,6 +14,31 @@
             background-color: #FFCD34;
         }
     }
+    &_white12 {
+        padding: 5px 40px;
+        margin: 0;
+        font-size: 12px;
+        font-weight: 400;
+        color: #000;
+        background-color: #fff;
+        border: 1px solid #FFF;
+        border-radius: 15px;
+        &-active {
+            border: 1px solid #000;
+        }
+        &:hover {
+            background-color: #aaa;
+        }
+        &:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px rgb(97, 98, 99);
+        }
+        &:active {
+            color: #FFF;
+            background-color: #000;
+            border: 1px solid #000;
+        }
+    }
     &_white20 {
         padding: 12px 40px;
         margin: 0;
@@ -103,6 +128,30 @@
             color: #000;
             background-color: #fff;
             border: 1px solid #000;
+        }
+    }
+    &_black18 {
+        padding: 6px 50px;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 300;
+        border: 1px solid #000;
+        &:hover {
+            color: #000;
+            background-color: #FFF;
+        }
+    }
+    &_white18 {
+        padding: 6px 50px;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 300;
+        color: #000;
+        background-color: #FFF;
+        border: 1px solid #000;
+        &:hover {
+            color: #FFF;
+            background-color: #000;
         }
     }
 }

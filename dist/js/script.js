@@ -60,3 +60,23 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " btn_mini-active";
   });
 }
+
+/* var btnSubscriptionContainer = document.getElementById("userSubscription");
+var btnSubscription = btnSubscriptionContainer.getElementsByClassName("products__group-btn");
+for (var i = 0; i < btns.length; i++) {
+    btnSubscription[i].addEventListener("click", function() {
+      var current = btnSubscriptionContainer.getElementsByClassName("products__group-btn_active");
+      current[0].className = current[0].className.replace(" products__group-btn_active", "");
+      this.className += " products__group-btn_active";
+    });
+} */
+
+/* var charterContainer = document.getElementById("charter");
+var charter = charterContainer.getElementsByClassName("btn_white12");
+for (var i = 0; i < charter.length; i++) {
+    charter[i].addEventListener("click", function() {
+      var current = charterContainer.getElementsByClassName("btn_white12-active");
+      current[0].className = current[0].className.replace(" btn_white12-active", "");
+      this.className += " btn_white12-active";
+    });
+} */

@@ -64,12 +64,6 @@
             justify-content: space-between;
         }
     }
-    &__content {
-        display: none;
-        &_active {
-            display: block;
-        }
-    }
     &__card {
         padding: 10px 0;
         margin-bottom: 20px;
@@ -327,7 +321,7 @@
     }
     &__search {
         position: relative;
-        margin-top: 50px;
+        margin-top: 40px;
         display: flex;
         justify-content: flex-end;
         &-icon {

@@ -154,4 +154,28 @@
             background-color: #000;
         }
     }
+    &_gray30 {
+        padding: 0;
+        margin: 0;
+        width: 628px;
+        height: 95px;
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: 0.165em;
+        color: #7F7F7F;
+        background-color: #F4F4F4;
+        border-radius: 22px;
+    }
+    &_green30 {
+        padding: 0;
+        margin: 0;
+        width: 628px;
+        height: 95px;
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: 0.165em;
+        color: #7F7F7F;
+        background-color: #73C17B;
+        border-radius: 22px;
+    }
 }

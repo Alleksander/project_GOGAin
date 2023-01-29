@@ -18,10 +18,10 @@
         }
         &-icon {
             width: 50px;
-            height: 50px;
-            border: 1px solid #000;
-            border-radius: 100%;
             margin-right: 15px;
+            img {
+                width: 100%;
+            }
         }
         &-btn {
             display: none;
@@ -326,11 +326,14 @@
         justify-content: flex-end;
         &-icon {
             position: absolute;
+            right: 29.5%;
             top: 50%;
             transform: translateY(-50%);
-            height: 70%;
+            height: 50%;
             img {
                 height: 100%;
+                margin: 0;
+                display: block;
             }
         }
         &-post {
@@ -377,6 +380,7 @@
             font-size: 16px;
             background-color: rgb(236, 236, 236);
             border-bottom: 1px solid #000;
+            border-radius: 5px 5px 0 0;
         }
         &-text {
             padding: 30px 40px;
@@ -395,6 +399,10 @@
             display: flex;
             align-items: center;
             height: 100%;
+            span {
+                margin-left: 8px;
+                font-weight: 400;
+            }
         }
         &-divider {
             height: 100%;
@@ -402,12 +410,29 @@
         }
         &-like {
             padding: 0 15px;
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+        &-icon {
+            height: 45%;
+            img {
+                height: 100%;
+                margin: 0;
+                display: block;
+            }
         }
         &-comment {
             padding: 0 15px;
+            display: flex;
+            align-items: center;
+            height: 100%;
         }
         &-repost {
             padding: 0 15px;
+            display: flex;
+            align-items: center;
+            height: 100%;
         }
         &-date {
             padding: 0 20px;

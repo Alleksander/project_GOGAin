@@ -1,0 +1,28 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/slick';
+
+* {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-fz: 37px;
+    --sect-pt: 120px;
+}
+
+.container {
+    position: relative;
+    width: 1150px;
+    margin: 0 auto;
+}
+
+@import 'blocks/titles';
+@import 'blocks/buttons';
+@import 'blocks/userMenu';
+@import 'blocks/userMerchandise';
+
+@import 'blocks/media';

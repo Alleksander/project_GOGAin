@@ -80,3 +80,27 @@ for (var i = 0; i < charter.length; i++) {
       this.className += " btn_white12-active";
     });
 } */
+
+// Сворачивание-разворачивание у userMenu текста
+
+var userMenuDescr = document.getElementsByClassName("userMenu__descr");
+
+/* function collapseUserMenu(){
+    if (userMenuDescr.attr(display == "block")){
+        userMenuDescr.attr(display = "none");
+    } else {
+        userMenuDescr.attr(display = "block");
+    }
+} */
+
+// Открытие-закрытие модального окна на странице userMerchandise
+
+function viewModal(){
+    document.getElementById("userMerchandise-modal").style.display = "flex";
+    document.getElementById("userMerchandise-overlay").style.display = "block";
+  }
+
+function hideModal(){
+    document.getElementById("userMerchandise-modal").style.display = "none";
+    document.getElementById("userMerchandise-overlay").style.display = "none";
+  }
